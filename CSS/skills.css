@@ -1,0 +1,172 @@
+/* ---------- skillssections---------- */
+
+.skillssections {
+    padding: 1rem 3rem;
+    height: 100vh;
+    width: 90%;
+}
+
+/* ----------skillsbox------------ */
+
+.skillsbox {
+    font-size: 3rem;
+    /* background-color: red; */
+    width: 80%;
+    margin-left: 8rem
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 1rem;
+}
+
+.skillname {
+    margin-left: 2rem;
+}
+
+.skillline {
+    width: 78%;
+    height: 1rem;
+    background-color: rgb(65, 63, 63);
+    border-radius: 100px;
+    position: relative;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+}
+
+.html::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+
+}
+
+.html::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    /* right: 109px; */
+    left: 79%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+}
+
+
+.css::before {
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+.css::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    /* right: 200px; */
+    left: 64%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+}
+
+.JavaScript::before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+.JavaScript::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    /* right: 231px; */
+    left: 59%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+}
+
+.React::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+.React::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    /* right: 291px; */
+    left: 49%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+}
+
+.Bootstrap::before {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+.Bootstrap::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    /* right: 170px; */
+    left: 69%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+}
+
+.Tailwind::before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+.Tailwind::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    /* right: 230px; */
+    left: 59%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+}
