@@ -1,0 +1,74 @@
+.herosection {
+    padding: 1rem 5rem;
+    height: 100vh;
+    display: flex;
+}
+
+.namebox {
+    margin: 2rem 3rem;
+}
+
+.nameboxinner {
+    margin: -35px 26px;
+}
+
+.namebox .nameboxinner .hi {
+    font-size: 10rem;
+}
+
+.namebox .nameboxinner .name {
+    font-size: 10rem;
+    margin-top: -4rem;
+}
+
+.namebox .nameboxinner .webdev {
+    font-size: 10rem;
+    margin-top: -3rem;
+}
+
+.animatedtextbox {
+    margin: 2rem 3rem;
+}
+
+.animatedtextbox .texthere h4 {
+    font-size: 3rem;
+    color: rgb(139, 130, 130);
+    font-weight: 300;
+    font-weight: bold;
+
+}
+
+.contactusbtn {
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+
+.contactusbtn a {
+    font-size: 3.5rem;
+    text-decoration: none;
+    border: 2px solid #7ed6df;
+    padding: 0.5rem 1rem;
+    transition: background 0.4s ease;
+}
+
+/* #f9ca24 */
+.contactusbtn a:hover {
+    background: #7ed6df;
+    box-shadow: #f9ca24 0px 5px 15px;
+}
+
+/* ----------heroimagegif------------- */
+
+
+.heroimagegif img {
+    width: 32%;
+    position: absolute;
+    right: 3rem;
+    top: 10rem;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    transition: box-shadow 0.5s ease;
+}
+
+.heroimagegif img:hover {
+    box-shadow: #ffc800 0px 5px 15px;
+}
