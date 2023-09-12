@@ -19,7 +19,7 @@ body {
 
 .htmlfont {
     font-family: 'Cedarville Cursive', cursive;
-    color: #f9ca24;
+    color: #5f5f5f;
     font-weight: 100;
     font-size: 1.5rem;
 }
@@ -56,8 +56,8 @@ body {
 
 .g {
     font-size: 8rem;
-    text-shadow: 4px 4px 1px #f9ca24;
-    color: #7ed6df;
+    text-shadow: 4px 4px 1px #ffcd19;
+    color: #17e8ff;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -142,6 +142,15 @@ body {
     bottom: 3.5rem;
     color: rgb(143, 141, 141);
     display: none;
+    right: -2rem;
+}
+
+.github .tooltiptext {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 3.5rem;
+    color: rgb(143, 141, 141);
+    display: none;
     right: -1rem;
 }
 
@@ -155,5 +164,9 @@ body {
 }
 
 .instagram:hover .tooltiptext {
+    display: block;
+}
+
+.github:hover .tooltiptext {
     display: block;
 }

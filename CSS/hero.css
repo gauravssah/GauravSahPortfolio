@@ -76,10 +76,13 @@
     top: 5px;
     right: 0;
     animation-name: textanimation;
-    animation-duration: 4s;
+    animation-duration: 3s;
+    animation-delay: 1ms;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
     animation-direction: alternate-reverse;
+
+
 
 }
 
