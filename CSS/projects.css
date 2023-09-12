@@ -63,8 +63,6 @@
     transition: all 1s ease-in-out;
 }
 
-.projectsbox:hover .projectimage img {}
-
 .projectsbox .appinfo a {
     font-size: 2rem;
     text-decoration: none;
