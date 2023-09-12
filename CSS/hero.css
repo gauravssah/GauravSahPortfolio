@@ -26,6 +26,11 @@
     margin-top: -4rem;
 }
 
+.namebox .nameboxinner .name .gauravtext {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
 .namebox .nameboxinner .webdev {
     font-size: 10rem;
     margin-top: -3rem;
