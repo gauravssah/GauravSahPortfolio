@@ -29,17 +29,72 @@
     margin-top: -3rem;
 }
 
+.namebox .nameboxinner .webdev h3 {
+    -webkit-text-stroke: 4px #21e9ff;
+    color: transparent;
+}
+
+.namebox .nameboxinner .webdev h3::selection {
+    -webkit-text-stroke: 4px #21e9ff;
+    color: rgb(255, 255, 255);
+}
+
+/* .namebox .nameboxinner .webdev h3::before {
+    content: "Web Developer";
+    display: block;
+    top: 0;
+    color: #21e9ff;
+    position: absolute;
+} */
+
+/* --------------------------- */
+
 .animatedtextbox {
     margin: 2rem 3rem;
 }
 
+.animatedtextbox .texthere {
+    position: relative;
+    width: fit-content;
+}
+
 .animatedtextbox .texthere h4 {
     font-size: 3rem;
-    color: rgb(139, 130, 130);
+    color: #21e9ff;
     font-weight: 300;
     font-weight: bold;
+    padding-right: 2rem;
+}
+
+/* ---------------------------------- */
+.animatedtextbox .texthere h4::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 4rem;
+    background-color: #1c1c1c;
+    top: 5px;
+    right: 0;
+    animation-name: textanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
 
 }
+
+@keyframes textanimation {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 35rem;
+    }
+
+}
+
+/* ---------------------------------- */
 
 .contactusbtn {
     margin-left: 6rem;
@@ -72,6 +127,26 @@
     position: relative;
     right: 6rem;
     top: 27%;
-    box-shadow: #ffc800 0px 5px 15px;
-    transition: box-shadow 0.5s ease-in-out;
+    animation-name: imageanimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+    /* border: 5px solid red; */
+
+}
+
+@keyframes imageanimation {
+    0% {
+        box-shadow: #ffc800 0px 5px 20px;
+
+    }
+
+    50% {
+        box-shadow: #ffffff 0px 5px 20px;
+    }
+
+    100% {
+        box-shadow: #21e9ff 0px 5px 20px;
+    }
 }
