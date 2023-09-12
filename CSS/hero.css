@@ -27,6 +27,8 @@
 .namebox .nameboxinner .webdev {
     font-size: 10rem;
     margin-top: -3rem;
+    position: relative;
+
 }
 
 .namebox .nameboxinner .webdev h3 {
@@ -34,23 +36,23 @@
     color: transparent;
 }
 
-.namebox .nameboxinner .webdev h3::selection {
-    -webkit-text-stroke: 4px #21e9ff;
-    color: rgb(255, 255, 255);
-}
+/* ---------------------------------------------- */
 
-/* .namebox .nameboxinner .webdev h3::before {
-    content: "Web Developer";
-    display: block;
-    top: 0;
-    color: #21e9ff;
-    position: absolute;
-} */
+
+
+
+
+
+/* ---------------------------------------------- */
+
+
+
 
 /* --------------------------- */
 
 .animatedtextbox {
     margin: 2rem 3rem;
+    position: relative;
 }
 
 .animatedtextbox .texthere {
@@ -58,6 +60,9 @@
     width: fit-content;
     margin-left: 3rem;
     /* background-color: rebeccapurple; */
+    height: 5rem;
+    overflow: hidden;
+    line-height: 5rem;
 }
 
 .animatedtextbox .texthere h4 {
@@ -66,6 +71,15 @@
     font-weight: 300;
     font-weight: bold;
     padding-right: 2rem;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(2) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -120px;
+    }
 }
 
 /* ---------------------------------- */
@@ -77,15 +91,13 @@
     background-color: #1c1c1c;
     top: 5px;
     right: 0;
+    border-left: 4px solid #ffc800;
     animation-name: textanimation;
     animation-duration: 3s;
     animation-delay: 1ms;
     animation-iteration-count: infinite;
     animation-fill-mode: forwards;
     animation-direction: alternate-reverse;
-
-
-
 }
 
 @keyframes textanimation {
