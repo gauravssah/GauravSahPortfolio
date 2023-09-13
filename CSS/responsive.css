@@ -880,9 +880,10 @@
 
     .resposivenavactio {
         display: block;
-        background: black;
+        background: #201f1f;
         position: sticky;
         top: 0;
+        box-shadow: rgba(48, 47, 47, 0.45) 0px 25px 20px -20px;
     }
 
     .resposivenavactio .navlist {
@@ -978,6 +979,7 @@
         padding: 1rem 0rem;
         height: 100vh;
         width: 90%;
+        margin-bottom: 1rem;
     }
 
     .aboutustetx {
@@ -1100,12 +1102,13 @@
         width: 100%;
         position: relative;
         margin: 0rem 0rem;
+        margin-bottom: 2rem;
     }
 
     .cubessection {
         position: absolute;
-        right: 35rem;
-        bottom: -8rem;
+        right: 39rem;
+        bottom: -82rem;
     }
 
     /* projectssection */
@@ -1250,9 +1253,10 @@
 
     .resposivenavactio {
         display: block;
-        background: black;
+        background: #201f1f;
         position: sticky;
         top: 0;
+        box-shadow: rgba(48, 47, 47, 0.45) 0px 25px 20px -20px;
     }
 
     .resposivenavactio .navlist {
