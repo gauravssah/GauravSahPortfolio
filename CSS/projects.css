@@ -44,9 +44,12 @@
     align-items: center;
     justify-content: space-evenly;
     top: 32%;
-    left: 11%;
+    /* left: 11%; */
     transform: translate(0rem, 20rem);
     transition: transform 0.3s ease-in-out;
+    text-align: center;
+    width: 100%;
+    /* background: aliceblue; */
 }
 
 .projectsbox:hover .appinfo {
