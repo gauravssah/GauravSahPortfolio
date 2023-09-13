@@ -75,6 +75,7 @@
 @keyframes slide {
     100% {
         top: -120px;
+        /* top: -70px; */
     }
 }
 
@@ -83,9 +84,9 @@
     content: "";
     display: block;
     position: absolute;
-    height: 4rem;
+    height: 5rem;
     background-color: #1c1c1c;
-    top: 5px;
+    top: 4px;
     right: 0;
     border-left: 4px solid #ffc800;
     animation-name: textanimation;
