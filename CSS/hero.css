@@ -43,6 +43,10 @@
     color: transparent;
 }
 
+.namebox .nameboxinner .webdev h3::selection {
+    background: none;
+}
+
 
 /* --------------------------- */
 

@@ -25,6 +25,12 @@ body {
     font-size: 1.5rem;
 }
 
+.htmlfont::selection {
+    background: none;
+    color: #ffcd19;
+    text-shadow: 2px 2px 5px white;
+}
+
 .bodytag {
     margin-left: 3rem;
 }
@@ -72,8 +78,8 @@ body {
 .webd {
     margin-bottom: 2rem;
     margin-top: 1rem;
-
 }
+
 
 /* ------------navaction----------------- */
 
