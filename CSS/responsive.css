@@ -1027,88 +1027,9 @@
         font-weight: bold;
     }
 
-    .html::after {
-        content: "";
-        position: absolute;
-        width: 2rem;
-        height: 2rem;
-        background: #ffffff;
-        border-radius: 100px;
-        left: 79%;
-        top: -3px;
-        box-shadow: #ffcd1b 0px 0px 20px;
-        animation: htmlafter 3s;
-    }
-
-    .css::after {
-        content: "";
-        position: absolute;
-        width: 2rem;
-        height: 2rem;
-        background: #ffffff;
-        border-radius: 100px;
-        left: 64%;
-        top: -4px;
-        box-shadow: #ffcd1b 0px 0px 20px;
-        animation: cssafter 3s;
-    }
-
-    .JavaScript::after {
-        content: "";
-        position: absolute;
-        width: 2rem;
-        height: 2rem;
-        background: #ffffff;
-        border-radius: 100px;
-        left: 59%;
-        top: -4px;
-        box-shadow: #ffcd1b 0px 0px 20px;
-        animation: javscriptafter 3s;
-    }
-
-    .React::after {
-        content: "";
-        position: absolute;
-        width: 2rem;
-        height: 2rem;
-        background: #ffffff;
-        border-radius: 100px;
-        left: 49%;
-        top: -4px;
-        box-shadow: #ffcd1b 0px 0px 20px;
-        animation: reactafter 3s;
-    }
-
-    .Bootstrap::after {
-        content: "";
-        position: absolute;
-        width: 2rem;
-        height: 2rem;
-        background: #ffffff;
-        border-radius: 100px;
-        left: 69%;
-        top: -3px;
-        box-shadow: #ffcd1b 0px 0px 20px;
-        animation-name: Bootstrapdafter;
-        animation-duration: 3s;
-    }
-
-    .Tailwind::after {
-        content: "";
-        position: absolute;
-        width: 2rem;
-        height: 2rem;
-        background: #ffffff;
-        border-radius: 100px;
-        left: 59%;
-        top: -4px;
-        box-shadow: #ffcd1b 0px 0px 20px;
-        animation-name: Tailwindafter;
-        animation-duration: 3s;
-    }
 
     .skillssections {
-        height: 100vh;
+        height: 200vh;
         width: 100%;
         position: relative;
         margin: 0rem 0rem;
@@ -1116,9 +1037,8 @@
     }
 
     .cubessection {
-        position: absolute;
-        right: 39rem;
-        bottom: -119rem;
+        position: relative;
+
     }
 
     /* projectssection */

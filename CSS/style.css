@@ -52,7 +52,7 @@ body {
     height: 100vh;
     text-align: center;
     width: 10%;
-
+    z-index: 500;
 }
 
 /* ------------mylogo---------- */
@@ -115,7 +115,11 @@ body {
     justify-content: space-between;
     align-items: center;
     font-size: 4rem;
-    padding: 2rem;
+    gap: 1rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
 }
 
 .sociallinksbox a:hover {

@@ -2,7 +2,7 @@
 
 .skillssections {
     /* padding: 1rem 3rem; */
-    height: 100vh;
+    height: 200vh;
     width: 90%;
 }
 
@@ -11,7 +11,7 @@
 .skillsbox {
     font-size: 3rem;
     /* background-color: red; */
-    width: 80%;
+    width: 95%;
     margin-left: 3rem
 }
 
@@ -42,7 +42,7 @@
 .html::before {
     content: "";
     position: absolute;
-    width: 80%;
+    width: 95%;
     height: 1rem;
     background: rgb(255, 255, 255);
     border-radius: 100px;
@@ -55,7 +55,7 @@
     }
 
     to {
-        width: 80%;
+        width: 95%;
     }
 
 }
@@ -67,7 +67,7 @@
     height: 2rem;
     background: #ffffff;
     border-radius: 100px;
-    left: 79%;
+    left: 93%;
     top: -6px;
     box-shadow: #ffcd1b 0px 0px 20px;
     animation: htmlafter 3s;
@@ -79,7 +79,7 @@
     }
 
     to {
-        left: 79%;
+        left: 93%;
     }
 }
 
@@ -88,7 +88,7 @@
 .css::before {
     content: "";
     position: absolute;
-    width: 65%;
+    width: 85%;
     height: 1rem;
     background: rgb(255, 255, 255);
     border-radius: 100px;
@@ -101,7 +101,7 @@
     }
 
     to {
-        width: 65%;
+        width: 85%;
     }
 
 }
@@ -113,7 +113,7 @@
     height: 2rem;
     background: #ffffff;
     border-radius: 100px;
-    left: 64%;
+    left: 83%;
     top: -6px;
     box-shadow: #ffcd1b 0px 0px 20px;
     animation: cssafter 3s;
@@ -125,7 +125,7 @@
     }
 
     to {
-        left: 64%;
+        left: 83%;
     }
 }
 
@@ -134,7 +134,7 @@
 .JavaScript::before {
     content: "";
     position: absolute;
-    width: 60%;
+    width: 75%;
     height: 1rem;
     background: rgb(255, 255, 255);
     border-radius: 100px;
@@ -147,7 +147,7 @@
     }
 
     to {
-        width: 60%;
+        width: 75%;
     }
 
 }
@@ -159,7 +159,7 @@
     height: 2rem;
     background: #ffffff;
     border-radius: 100px;
-    left: 59%;
+    left: 73%;
     top: -6px;
     box-shadow: #ffcd1b 0px 0px 20px;
     animation: javscriptafter 3s;
@@ -171,7 +171,7 @@
     }
 
     to {
-        left: 59%;
+        left: 73%;
     }
 }
 
@@ -180,7 +180,7 @@
 .React::before {
     content: "";
     position: absolute;
-    width: 50%;
+    width: 60%;
     height: 1rem;
     background: rgb(255, 255, 255);
     border-radius: 100px;
@@ -193,7 +193,7 @@
     }
 
     to {
-        width: 50%;
+        width: 60%;
     }
 
 }
@@ -205,7 +205,7 @@
     height: 2rem;
     background: #ffffff;
     border-radius: 100px;
-    left: 49%;
+    left: 58%;
     top: -6px;
     box-shadow: #ffcd1b 0px 0px 20px;
     animation: reactafter 3s;
@@ -217,7 +217,7 @@
     }
 
     to {
-        left: 49%;
+        left: 58%;
     }
 }
 
@@ -226,7 +226,7 @@
 .Bootstrap::before {
     content: "";
     position: absolute;
-    width: 70%;
+    width: 90%;
     height: 1rem;
     background: rgb(255, 255, 255);
     border-radius: 100px;
@@ -240,7 +240,7 @@
     }
 
     to {
-        width: 70%;
+        width: 90%;
     }
 }
 
@@ -251,7 +251,7 @@
     height: 2rem;
     background: #ffffff;
     border-radius: 100px;
-    left: 69%;
+    left: 88%;
     top: -6px;
     box-shadow: #ffcd1b 0px 0px 20px;
     animation-name: Bootstrapdafter;
@@ -264,7 +264,7 @@
     }
 
     to {
-        left: 69%;
+        left: 88%;
     }
 }
 
@@ -273,7 +273,7 @@
 .Tailwind::before {
     content: "";
     position: absolute;
-    width: 60%;
+    width: 90%;
     height: 1rem;
     background: rgb(255, 255, 255);
     border-radius: 100px;
@@ -287,7 +287,7 @@
     }
 
     to {
-        width: 60%;
+        width: 90%;
     }
 }
 
@@ -298,7 +298,7 @@
     height: 2rem;
     background: #ffffff;
     border-radius: 100px;
-    left: 59%;
+    left: 88%;
     top: -6px;
     box-shadow: #ffcd1b 0px 0px 20px;
     animation-name: Tailwindafter;
@@ -311,7 +311,243 @@
     }
 
     to {
-        left: 59%;
+        left: 88%;
+    }
+}
+
+/* --------------------------------- */
+
+.MongoDB::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+    animation-name: MongoDBbefore;
+    animation-duration: 3s;
+}
+
+@keyframes MongoDBbefore {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+.MongoDB::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    left: 48%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+    animation-name: MongoDBafter;
+    animation-duration: 3s;
+}
+
+@keyframes MongoDBafter {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 48%;
+    }
+}
+
+/* --------------------------------- */
+
+.Express::before {
+    content: "";
+    position: absolute;
+    width: 55%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+    animation-name: Expressbefore;
+    animation-duration: 3s;
+}
+
+@keyframes Expressbefore {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 55%;
+    }
+}
+
+.Express::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    left: 53%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+    animation-name: Expressafter;
+    animation-duration: 3s;
+}
+
+@keyframes Expressafter {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 53%;
+    }
+}
+
+/* --------------------------------- */
+
+.Next::before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+    animation-name: Nextbefore;
+    animation-duration: 3s;
+}
+
+@keyframes Nextbefore {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 60%;
+    }
+}
+
+.Next::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    left: 58%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+    animation-name: Nextafter;
+    animation-duration: 3s;
+}
+
+@keyframes Nextafter {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 58%;
+    }
+}
+
+/* --------------------------------- */
+
+.Node::before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+    animation-name: Nodebefore;
+    animation-duration: 3s;
+}
+
+@keyframes Nodebefore {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 60%;
+    }
+}
+
+.Node::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    left: 58%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+    animation-name: Nodeafter;
+    animation-duration: 3s;
+}
+
+@keyframes Nodeafter {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 58%;
+    }
+}
+
+
+/* --------------------------------- */
+
+.Mongoose::before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+    animation-name: Nodebefore;
+    animation-duration: 3s;
+}
+
+@keyframes Mongoosebefore {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 60%;
+    }
+}
+
+.Mongoose::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    left: 58%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+    animation-name: Mongooseafter;
+    animation-duration: 3s;
+}
+
+@keyframes Mongooseafter {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 58%;
     }
 }
 
@@ -319,10 +555,8 @@
 /* ----------------- cubes sections --------------------  */
 
 .cubessection {
-    position: absolute;
-    right: 34rem;
-    /* bottom: 22rem; */
-    top: 64%;
+    position: relative;
+    bottom: -200px;
 }
 
 .Tailwindfontsize {
