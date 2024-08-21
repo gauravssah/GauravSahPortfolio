@@ -1,11 +1,18 @@
 /* #################################################################################### */
 
+.makeMeBold {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+
 /* ------------------------------------------------------------- */
 /* ############# Responsive Web Design - Media Queries #############  */
 /* ------------------------------------------------------------- */
 
 
 /* ##################### 1201px to more ####################### */
+
 
 @media (min-width: 1900px) {
     body {
@@ -92,12 +99,7 @@
         position: relative;
     }
 
-    .cubessection {
-        position: absolute;
-        right: 53rem;
-        bottom: 6rem;
-        /* top: 64%; */
-    }
+    .cubessection {}
 
     /* projectssection */
 
@@ -220,12 +222,7 @@
         position: relative;
     }
 
-    .cubessection {
-        position: absolute;
-        right: 53rem;
-        bottom: 6rem;
-        /* top: 64%; */
-    }
+    .cubessection {}
 
     /* projectssection */
 
@@ -398,11 +395,7 @@
         position: relative;
     }
 
-    .cubessection {
-        position: absolute;
-        right: 44rem;
-        bottom: 29rem;
-    }
+    .cubessection {}
 
     /* projectssection */
 
@@ -749,11 +742,7 @@
         position: relative;
     }
 
-    .cubessection {
-        position: absolute;
-        right: 44rem;
-        bottom: 3rem;
-    }
+    .cubessection {}
 
     /* projectssection */
 
@@ -1407,11 +1396,7 @@
         margin: 0rem 0rem;
     }
 
-    .cubessection {
-        position: absolute;
-        right: 35rem;
-        bottom: -8rem;
-    }
+    .cubessection {}
 
     /* projectssection */
 
