@@ -120,7 +120,8 @@
     flex-wrap: wrap-reverse;
     gap: 1rem;
     width: 100%;
-
+    align-items: center;
+    /* justify-content: center; */
 }
 
 .contactusbtn {
@@ -131,17 +132,28 @@
 .contactusbtn a {
     font-size: 3rem;
     text-decoration: none;
-    border: 4px solid #7ed6df;
     padding: 0.5rem 1rem;
     font-weight: bold;
     transition: background 0.4s ease;
 }
 
 
-.contactusbtn a:hover {
-    background: #7ed6df;
+.contactusbtn:hover {
+    background: #21e9ff;
+    color: #1c1c1c;
     box-shadow: #f9ca24 0px 5px 15px;
+    transition: all 0.3s;
 }
+
+.heroBtenBorder a:hover {
+    color: #1c1c1c;
+    transition: all 0.3s;
+}
+
+.heroBtenBorder {
+    border: 4px solid #21e9ff;
+}
+
 
 .ViewMyBlog a {
     background-color: #21e9ff;
